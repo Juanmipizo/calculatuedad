@@ -1,0 +1,52 @@
+body {
+    font-family: "Lucida Handwriting";
+    background-color: #1982B9;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #C9E8F8;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #435145;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+input[type="date"] {
+    width: 96%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #086D2D;
+    color: #F9F8ED;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#F9F8ED;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #89D1F7;
+    border-radius: 5px;
+     text-align: center;
+}
